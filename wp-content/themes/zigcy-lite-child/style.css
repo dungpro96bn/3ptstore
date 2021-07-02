@@ -1,0 +1,18 @@
+/*
+Theme Name: Zigcy Lite child
+Theme URI: https://accesspressthemes.com/wordpress-themes/zigcy-lite/
+Description: Zigcy Lite Theme WordPress
+Author: Access Press Themes
+Author URI: http://accesspressthemes.com
+Template: Zigcy-Lite
+Version: 2.0.7
+*/
+
+@import url("../zigcy-lite/style.css");
+
+body, button, input, select, optgroup, textarea,
+h1, h2, h3, h4, h5, h6, a, p, span, div{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
