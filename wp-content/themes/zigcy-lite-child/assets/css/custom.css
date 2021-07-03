@@ -150,10 +150,26 @@ body ul.products li.product{
 .woocommerce-mini-cart.cart_list.product_list_widget h4.item-title a:hover{
     text-decoration: underline;
 }
-
-
-
-
+.site-header.header-four .store-mart-lite-login-wrapper{
+    width: 19%;
+    text-align: right;
+    margin-top: 0px;
+}
+.site-header.header-four .store-mart-lite-product-cat-menu-wrap{
+    margin-top: 0px;
+}
+.site-header.header-four .site-branding{
+    margin-top: 0px;
+}
+.header-four .store-mart-lite-logos-wrap.clearfix{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 16px 0px;
+}
+.sm_search_form {
+    margin-left: 25px;
+}
 
 
 

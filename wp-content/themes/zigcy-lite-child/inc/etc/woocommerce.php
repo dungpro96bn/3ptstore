@@ -221,7 +221,7 @@ if ( ! function_exists( 'zigcy_lite_woocommerce_cart_link' ) ) {
 			</span>
 			<span class="sm-cart-wrap">
 				<span class="sm-cart-text"><?php echo esc_html($zigcy_lite_cart_title); ?></span>
-				<span class="sm-cart-amount"><?php echo wp_kses_data( WC()->cart->get_cart_subtotal() ); ?></span>
+<!--				<span class="sm-cart-amount">--><?php //echo wp_kses_data( WC()->cart->get_cart_subtotal() ); ?><!--</span>-->
 			</span>
 		</a>
 		<?php
