@@ -81,7 +81,7 @@ $('.smlwbs-wrap > .sml-products').each(function () {
     $smwbs.slick({
       infinite: true,
       slidesToShow: 4,
-      slidesToScroll: 1,
+      slidesToScroll: 3,
       arrows: false,
       dots: true,
       responsive: [

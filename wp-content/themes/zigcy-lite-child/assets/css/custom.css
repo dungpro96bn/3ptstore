@@ -242,11 +242,26 @@ body ul.products li.product{
 .plx_pro_cat_slider_section .woocommerce .sml-products .product .item-info-wrapp h2 a{
     text-transform: none;
 }
-
-
-
-
-
+.woocommerce .products .sml-add-to-cart-wrap .added_to_cart{
+    display: none;
+}
+.site-header.header-four .site-branding{
+    width: 18%;
+}
+.site-header.header-four .store-mart-lite-product-cat-menu-wrap {
+    width: 63%;
+}
+.plx_pro_cat_slider_section .woocommerce .sml-products .product .item-img img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+}
+.plx_pro_cat_slider_section .item-img{
+    position: relative;
+    padding-bottom: 100%;
+}
 
 
 

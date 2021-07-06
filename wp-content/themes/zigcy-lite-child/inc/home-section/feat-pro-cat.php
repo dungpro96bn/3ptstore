@@ -67,7 +67,7 @@ if ( ! function_exists( 'zigcy_lite_feat_prod_cat_setting' ) ) {
                                     <?php  }?>
                                 </ul>
                             <div class="link-all">
-                                <a class="button-link " href="?product_cat=<?php echo $zigcy_lite_feature_product_categories; ?>">Xem thêm</a>
+                                <a class="button-link " href="?product_cat=vay-nu">Xem thêm</a>
                             </div>
                             </div>
                             <?php  } wp_reset_postdata();   ?> 
