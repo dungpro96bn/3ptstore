@@ -90,7 +90,7 @@ if ( ! function_exists( 'zigcy_lite_blog_setting' ) ) {
             <?php  } } wp_reset_postdata();   ?>
           </div>
             <div class="link-all">
-                <a class="button " href="<?php echo get_category_link($blogCategories); ?>">Xem thêm</a>
+                <a class="button-link " href="<?php echo get_category_link($blogCategories); ?>">Xem thêm</a>
             </div>
           <?php } ?>
         </div>
