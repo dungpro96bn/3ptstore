@@ -66,6 +66,9 @@ if ( ! function_exists( 'zigcy_lite_feat_prod_cat_setting' ) ) {
                                     wc_get_template_part( 'content', 'product' );?>
                                     <?php  }?>
                                 </ul>
+                            <div class="link-all">
+                                <a class="button-link " href="?product_cat=<?php echo $zigcy_lite_feature_product_categories; ?>">Xem thêm</a>
+                            </div>
                             </div>
                             <?php  } wp_reset_postdata();   ?> 
                             <?php 

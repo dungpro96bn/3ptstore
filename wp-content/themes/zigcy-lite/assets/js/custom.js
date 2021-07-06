@@ -80,15 +80,15 @@ $('.smlwbs-wrap > .sml-products').each(function () {
     var $smwbs = $(this);
     $smwbs.slick({
       infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 4,
+      slidesToScroll: 1,
       arrows: false,
       dots: true,
       responsive: [
             {
               breakpoint: 1200,
               settings: {
-                slidesToShow: 2,
+                slidesToShow: 3,
                 slidesToScroll: 2
               }
             },

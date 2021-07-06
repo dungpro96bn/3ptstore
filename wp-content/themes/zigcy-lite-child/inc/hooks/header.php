@@ -166,7 +166,7 @@ if ( ! function_exists( 'zigcy_lite_add_browse_categories_nav_menu_items' ) ) {
       <button class="btn-transparent-toggle sml-cat-text-wrap">
         <i class="lnr lnr-menu"></i>
         <span>
-        <?php esc_html_e('Browse Categories','zigcy-lite'); ?>
+        <?php esc_html_e('Danh Mục','zigcy-lite'); ?>
         </span>
       </button>
     <div class="categorylist">

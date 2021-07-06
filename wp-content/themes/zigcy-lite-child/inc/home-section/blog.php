@@ -53,7 +53,7 @@ if ( ! function_exists( 'zigcy_lite_blog_setting' ) ) {
           <?php
           $blog_args = array(
             'cat' => $blogCategories,
-            'posts_per_page' => 3,
+            'posts_per_page' => 4,
             'post_status'=>'publish',
           );
           $blog_query = new WP_Query( $blog_args );
@@ -87,8 +87,11 @@ if ( ! function_exists( 'zigcy_lite_blog_setting' ) ) {
                 </div>
               </div>
             </div>
-            <?php  } } wp_reset_postdata();   ?> 
+            <?php  } } wp_reset_postdata();   ?>
           </div>
+            <div class="link-all">
+                <a class="button " href="<?php echo get_category_link($blogCategories); ?>">Xem thêm</a>
+            </div>
           <?php } ?>
         </div>
       </div>
