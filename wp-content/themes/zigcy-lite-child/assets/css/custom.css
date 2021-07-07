@@ -270,6 +270,14 @@ body ul.products li.product{
 .plx_pro_cat_slider_section .woocommerce a.add_to_cart_button, .plx_pro_cat_slider_section .woocommerce a.added_to_cart{
     width: 100%;
     text-align: center;
+    background: #dd3333;
+    border: 1px solid #dd3333;
+    transition: .3s;
+}
+.plx_pro_cat_slider_section .woocommerce a.add_to_cart_button:hover,
+.plx_pro_cat_slider_section .woocommerce a.added_to_cart:hover{
+    background: #fff !important;
+    color: #dd3333 !important;
 }
 .plx_prod_tab_cat_section .pwtb-catname-wrapper{
     display: flex;
