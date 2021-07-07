@@ -24,7 +24,7 @@
     transition: .4s;
 }
 #plx_prod_cat_section .zigcy-baby-prod-cat-wrapper:hover .store-mart-lite-cat-prod-content{
-    background: rgba(225, 31, 42, 0.9);
+    background: rgba(225, 31, 42, 0.8);
 }
 #plx_prod_cat_section .store-mart-lite-cat-prod-title{
     font-size: 24px;
@@ -232,6 +232,7 @@ body ul.products li.product{
 .plx_pro_cat_slider_section .item-info-wrapp{
     width: 100%;
     padding: 15px;
+    font-size: 13px;
 }
 .plx_pro_cat_slider_section .item-img {
     width: 100%;
@@ -241,6 +242,10 @@ body ul.products li.product{
 }
 .plx_pro_cat_slider_section .woocommerce .sml-products .product .item-info-wrapp h2 a{
     text-transform: none;
+    transition: .3s;
+}
+.plx_pro_cat_slider_section .woocommerce .sml-products .product .item-info-wrapp h2 a:hover{
+    color: #dd3333;
 }
 .woocommerce .products .sml-add-to-cart-wrap .added_to_cart{
     display: none;
@@ -262,6 +267,158 @@ body ul.products li.product{
     position: relative;
     padding-bottom: 100%;
 }
+.plx_pro_cat_slider_section .woocommerce a.add_to_cart_button, .plx_pro_cat_slider_section .woocommerce a.added_to_cart{
+    width: 100%;
+    text-align: center;
+}
+.plx_prod_tab_cat_section .pwtb-catname-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.plx_prod_tab_cat_section .pwtb-catname-wrapper a{
+    margin: 0px !important;
+    width: 220px;
+    text-align: center;
+    color: #000;
+    padding: 8px 0px;
+    border-bottom: 3px solid #41c1c7;
+    transition: .4s;
+    background: #ecf0f1;
+    font-size: 16px;
+}
+.plx_prod_tab_cat_section .pwtb-catname-wrapper a.pwtb-active{
+    background: #41c1c7;
+    color: #fff;
+    font-size: 16px;
+}
+.plx_prod_tab_cat_section .pwtb-catname-wrapper:after{
+    display: none;
+}
+.plx_prod_tab_cat_section .pwtb-catname-wrapper a:before{
+    display: none;
+}
+#plx_prod_tab_cat_section{
+    padding-top: 80px;
+}
+#plx_blog_section{
+    padding-bottom: 160px;
+}
+.woocommerce ul.products li.product .sml-product-wrapp a{
+    display: block;
+    position: relative;
+    padding-bottom: 120%;
+}
+.woocommerce ul.products li.product .sml-product-wrapp a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.chosen-container-single .chosen-single{
+    font-size: 16px;
+    line-height: 28px;
+    height: auto;
+    padding: 5px 20px;
+    font-weight: 500 !important;
+}
+#content .chosen-container .chosen-results li.active-result{
+    margin-bottom: 0px !important;
+    padding: 5px 20px !important;
+    font-size: 14px;
+    line-height: 28px;
+    color: #333;
+}
+.woocommerce-ordering .chosen-container{
+    width: 200px !important;
+}
+.chosen-container-single.chosen-container-single-nosearch .chosen-search{
+    display: none;
+}
+.chosen-container-single .chosen-drop{
+    margin-top: 0px;
+}
+.chosen-container .chosen-results{
+    padding-left: 0px;
+    margin-right: 0px;
+}
+body .chosen-container{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+    border-radius: 4px;
+}
+#left-sidebar .widget-title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 0px 20px 0px;
+}
+#left-sidebar .widget-title:after{
+    display: none;
+}
+.facetwp-facet .noUi-base .noUi-handle{
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    border-radius: 50%;
+    top: -8px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(0, 0, 0,0.32);
+}
+.facetwp-facet .noUi-horizontal {
+    height: 4px;
+    border: 0px !important;
+}
+.facetwp-facet .noUi-connect,
+.facetwp-facet .noUi-target{
+    background: #41c1c7;
+}
+.facetwp-facet .facetwp-slider-reset{
+    border: 2px solid #dd3333 !important;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0px;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    background: #dd3333;
+    box-shadow: unset;
+    transition: .3s;
+}
+.facetwp-facet .facetwp-slider-reset:hover{
+    color: #dd3333;
+    background: #fff !important;
+}
+.left-sidebar .title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#left-sidebar .facetwp-facet{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

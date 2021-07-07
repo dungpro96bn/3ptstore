@@ -461,7 +461,7 @@ if( ! function_exists('zigcy_lite_product_title')){
 		echo '<h2 class="woocommerce-loop-product__title">';
 		woocommerce_template_loop_product_link_open();
         $str = get_the_title();
-        echo substr($str, 0, 80) . '...';
+        echo substr($str, 0, 60) . '...';
 		woocommerce_template_loop_product_link_close();
 		echo '</h2>';
 	}

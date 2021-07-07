@@ -52,7 +52,7 @@ if ( ! function_exists( 'zigcy_lite_pro_cat_setting' ) ) {
 								</div>
 								<div class="store-mart-lite-cat-prod-btn">
 									<a class="store-mart-cat-prod-btn" href="<?php echo esc_url( $zigcy_category_link ); ?>">
-										<?php echo esc_html('See Collection','zigcy-lite'); ?>
+										<?php echo esc_html('XEM BỘ SƯU TẬP','zigcy-lite'); ?>
 									</a>
 								</div>
 							</div>

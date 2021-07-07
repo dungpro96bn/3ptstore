@@ -709,7 +709,7 @@ if(!function_exists('zigcy_woo_tab_ajax')){
                    <?php endwhile;
                else:
                    ?>
-                   <li><?php esc_html_e('No Products','zigcy-lite'); ?> </li>
+<!--                   <li>--><?php //esc_html_e('No Products','zigcy-lite'); ?><!-- </li>-->
                    <?php
                endif; ?>
            </ul>        
